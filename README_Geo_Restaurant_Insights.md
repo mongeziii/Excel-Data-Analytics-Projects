@@ -1,6 +1,6 @@
 # Geo Restaurant Insights: Location, Capacity & Customer Engagement Analysis
 
-A Power BI dashboard analyzing restaurant distribution, reservations, chef experience, and social media reach across geographic locations (Downtown, Rural, Suburban).
+An Excel dashboard analyzing restaurant distribution, reservations, chef experience, and social media reach across geographic locations (Downtown, Rural, Suburban).
 
 ---
 
@@ -36,38 +36,7 @@ Downtown holds ~14.7M followers vs. ~7.7M Rural and ~7.8M Suburban — roughly *
 ### 5. Chef experience is remarkably consistent
 Average experience is ~10 years across all locations (9.99–10.16). Talent quality isn't a differentiator — location and reach are the real performance drivers.
 
----
 
-## 🎨 Design Recommendations
-
-### Typography & Consistency
-- Use a single title style (Title Case recommended) — current dashboard mixes lowercase and uppercase.
-- Fix typos: "number of weekend resavations" → "number of weekend reservations".
-
-### Chart Type Improvements
-- Replace the **3D pie chart** for chef experience with a bar chart — 3D distorts proportions and reduces readability.
-- Replace the follower pie chart with a **donut chart** or **horizontal bar chart** for easier comparison.
-- Convert 3D column charts to **flat 2D bars** for cleaner, more accurate visuals.
-
-### Visual Hierarchy & Layout
-- Group all "per location" charts together in one row; position parking/followers as secondary KPIs.
-- Add **KPI cards** at the top: Total Restaurants, Total Reservations, Avg Chef Experience, Total Followers.
-- Collapse the right-side slicer panel to an icon to give charts more screen space.
-
-### Color Usage
-- Use **color to encode meaning**: assign one consistent color per location across all charts (e.g., Downtown = blue, Rural = green, Suburban = orange).
-- Keep green as the brand accent, not the primary data color.
-
-### Data Labels & Formatting
-- Round long decimals (9.985637943 → 9.99 years).
-- Add total labels on pie charts (e.g., "Total Followers: 30M").
-- Remove placeholder text like "Horizontal (Value) Axis Title".
-
-### Interactivity
-- Add **tooltips** with % of total on hover.
-- Consider a **bubble map** visual to reinforce the geographic story — a fitting addition given the "geo" theme.
-
----
 
 ## 📊 Data Summary
 
@@ -82,4 +51,4 @@ Average experience is ~10 years across all locations (9.99–10.16). Talent qual
 
 ---
 
-*Dashboard: Geo Restaurant Insights | Last updated: September 2026*
+*Dashboard: Geo Restaurant Insights 
