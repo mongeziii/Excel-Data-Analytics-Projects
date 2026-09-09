@@ -1,6 +1,6 @@
 # Products Sales Insights: Regional Performance & Profitability Analysis
 
-A Power BI dashboard analyzing product sales, net profit, and profitability across regions, market segments, and product categories.
+An excel dashboard analyzing product sales, net profit, and profitability across regions, market segments, and product categories.
 
 ---
 
@@ -49,38 +49,3 @@ Profit per segment follows the same ranking as sales (Consumer > Corporate > Hom
 | Furniture | ~1,964,434 |
 | Office Supplies | ~1,827,296 |
 
----
-
-## 🎨 Design Recommendations
-
-### Typography & Consistency
-- Standardize chart titles to Title Case — current dashboard mixes styles ("Net profit made per region" vs "Profit made per segement").
-- Fix typos: "segement" → "segment" (appears in two chart titles).
-
-### Chart Type Improvements
-- **"Profit made per category" pie chart:** values overlap and pie slices are hard to compare — replace with a **bar chart**.
-- **"Profit made per segment" donut chart:** consider a bar chart or KPI cards for cleaner comparison.
-- **"Total sales per region" column chart:** x-axis labels are rotated and crowded — switch to a **horizontal bar chart** for readability.
-
-### Visual Hierarchy & Layout
-- Add **KPI cards** at the top: Total Sales, Total Profit, Profit Margin %, Top Region.
-- Remove the visible Excel gridlines/cell references around the dashboard canvas for a polished embedded look.
-- Give the "Total sales per region" chart more height so labels don't overlap.
-
-### Color Usage
-- Avoid using green uniformly across all charts — assign **meaningful colors per category/segment** consistently (e.g., Consumer = blue, Corporate = orange, Home Office = green across every chart).
-- Use a single accent color for profit/sales emphasis rather than green everywhere.
-
-### Data Labels & Formatting
-- Format large numbers: 6,507,949.418 → **6.5M** or **$6.5M** for readability.
-- Add data labels to the regional profit chart bars.
-- Add a currency symbol ($) to all sales/profit axes.
-
-### Interactivity
-- Add **tooltips** with margin % and rank on hover.
-- Enable **drill-through** from region → sub-category for deeper analysis.
-- Consider a **map visual** given the regional focus — a filled map would outperform the bar charts for geographic storytelling.
-
----
-
-*Dashboard: Products Sales Insights | Last updated: September 2026*
